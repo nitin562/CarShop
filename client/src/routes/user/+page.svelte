@@ -10,7 +10,9 @@
 </svelte:head>
 <div class="flex-1 flex flex-wrap justify-center gap-4 p-4 overflow-y-auto">
   {#if $CarList.length === 0}
-    <Spinner />
+  <p class="text-2xl md:text-5xl text-center my-16 text-white font-Comfortaa">
+    Current there is no deals in shop
+  </p>
   {/if}
   {#each $CarList as carInfo, index (index)}
     <CarTileForUser

@@ -2,7 +2,7 @@
   import { Alert, Button, Spinner } from "flowbite-svelte";
   import { links } from "../routes/endpoints";
   import { ErrorManage } from "../UtilFunc/ErrorManagement";
-
+    import {goto} from "$app/navigation"
   export let dealerName;
   export let dealerLocation;
   export let dealerImg;
@@ -30,11 +30,14 @@
     //(result);
     if (result.success) {
       buy = true;
-      errors.success = "Congratulations, You have owned a car";
+      errors.success = "Congratulations, You have owned a car. Redirecting to Home Page";
       {
         setTimeout(() => {
           errors.success = undefined;
         }, 2500);
+        setTimeout(()=>{
+            goto("/user")
+          },3000)
       }
     } else {
       errors = ErrorManage(result, []);
@@ -43,6 +46,7 @@
           setTimeout(() => {
             errors.server = undefined;
           }, 2500);
+          
         }
       }
     }
