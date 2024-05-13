@@ -71,7 +71,7 @@
       class="flex w-full border-[1px] backdrop-blur-lg border-slate-700 rounded-lg bg-black/25 h-[6rem] p-2 justify-between items-center hover:brightness-150 cursor-pointer"
     >
       <img
-        src={dealerImg || "./carlog.jpg"}
+        src={dealerImg || "/carlog.jpg"}
         alt="car"
         class="h-full aspect-square rounded-full {dealerImg
           ? 'invert-0'

@@ -147,7 +147,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: url("./BG1.webp") no-repeat center center/cover;
+    background: url("/BG1.webp") no-repeat center center/cover;
     z-index: -1;
   }
 </style>

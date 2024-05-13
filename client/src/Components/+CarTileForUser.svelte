@@ -8,7 +8,7 @@
     carImage = carImage.replaceAll("\\", "/");
     carSrc = ServerBase + "/" + carImage;
   } else {
-    carSrc = "./BG1.webp";
+    carSrc = "/BG1.webp";
   }
   //(carSrc)
   export let DealId=null;

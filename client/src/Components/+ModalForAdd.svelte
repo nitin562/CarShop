@@ -14,7 +14,7 @@
   } from "flowbite-svelte";
   import { links } from "../routes/endpoints";
   import { ErrorManage } from "../UtilFunc/ErrorManagement.js";
-  let imgSrc = "./carAdd.jpeg";
+  let imgSrc = "/carAdd.jpeg";
   let imgData = null;
   let carName = "";
   let carType = "";

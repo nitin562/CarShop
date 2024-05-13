@@ -206,7 +206,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: url("./Bg2.webp") no-repeat center center/cover;
+    background: url("/Bg2.webp") no-repeat center center/cover;
     z-index: -1;
   }
 </style>

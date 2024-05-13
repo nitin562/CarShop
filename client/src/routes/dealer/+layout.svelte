@@ -16,7 +16,7 @@
           top: 0;
           width: 100vw;
           height: 100vh;
-          background: url("./bg3.png") no-repeat center center/cover;
+          background: url("/bg3.png") no-repeat center center/cover;
           z-index: -1;
       }
   </style>

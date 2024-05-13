@@ -181,6 +181,6 @@
     width: 100vw;
     height: 100vh;
 
-    background: url("./bg4.jpg") no-repeat center center/cover;
+    background: url("/bg4.jpg") no-repeat center center/cover;
   }
 </style>

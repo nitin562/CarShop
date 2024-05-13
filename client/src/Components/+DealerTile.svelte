@@ -16,7 +16,7 @@
 >
   <img alt="car"
     class=" w-3/4 rounded-xl {imgSrc?"invert-0":"invert"} group-hover:drop-shadow-[0_0_0.4rem_#000] transition-all duration-300 aspect-square "
-    src={imgSrc?imgSource:"./carlog.png"}
+    src={imgSrc?imgSource:"/carlog.png"}
   />
   <div class="w-full flex justify-between items-center p-2 px-2 gap-4">
     <div class="flex flex-col w-[60%] flex-wrap my-4">
