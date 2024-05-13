@@ -46,7 +46,7 @@
   <button on:click={handleClickonInfo} class="w-full flex h-[8rem] hover:bg-slate-900/50 cursor-pointer p-2 px-4 mt-4 mb-8 justify-between items-center">
     <Img src={nameSourceUrl} class="h-full aspect-square rounded-xl"/>
     <div class="flex flex-col">
-      <span class="text-xl text-emerald-400 font-Comfortaa">{name}</span>
+      <span class="text-xl text-orange-400 font-bold font-Comfortaa">{name}</span>
       <span class="text-md text-emerald-200 font-Abel">{loc}</span>
 
     </div>

@@ -91,7 +91,7 @@
       <Button on:click={HandleBuy} class="float-right text-lg bg-rose-500">
         {#if loading}
           <Spinner size={4} class="mr-4" />
-        {/if}{buy ? "Already Bought" : "Buy"}</Button
+        {/if}{buy ? "Bought" : "Buy"}</Button
       >
     </div>
   </div>

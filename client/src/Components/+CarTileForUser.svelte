@@ -61,10 +61,10 @@
       {/if}
     </div>
   </div>
-  <p class="break-words px-4 w-full min-h-20 bg-slate-900 py-4 rounded-xl text-emerald-300 font-Comfortaa text-sm">
+  <p class="break-words px-4 w-full max-h-[10rem] overflow-y-auto bg-slate-900 py-4 rounded-xl text-emerald-300 font-Comfortaa text-sm">
     {description||"Description Empty"}
   </p>
-  <div class="w-full flex px-4 mt-4 mb-8 justify-end">
+  <div class="w-full flex px-4 mt-4 mb-8 justify-end justify-items-end">
     <Button color="dark" on:click={HandleClickOnTile}>{btnTitle||"View"}</Button>
   </div>
 </div>
