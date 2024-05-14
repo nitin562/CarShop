@@ -56,7 +56,7 @@
             {#if type==="client"}
                 <GeneralCar dealerId={carDetail.Dealership[0]._id} type="client" carname={carDetail.car_entry[0].name} carModel={carDetail.car_entry[0].model} carType={carDetail.car_entry[0].type} description={carDetail.car_entry[0].car_info.desc} carSrc={carDetail.car_entry[0].car_info.path} nameSrc={carDetail.Dealership[0].dealership_info.path} pricing={carDetail.sold_entry.vehicle_info.pricing} warranty={carDetail.sold_entry.vehicle_info.warranty} name={carDetail.Dealership[0].dealership_name} loc={carDetail.Dealership[0].dealership_location} />
             {:else}
-                <GeneralCar type="dealer" carname={carDetail.car_entry[0].name} carModel={carDetail.car_entry[0].model} carType={carDetail.car_entry[0].type} description={carDetail.car_entry[0].car_info.desc} carSrc={carDetail.car_entry[0].car_info.path}  name={carDetail.userInfo[0].user_info.name} nameSrc={carDetail.userInfo[0].user_info.path} pricing={carDetail.sold_entry.vehicle_info.pricing} warranty={carDetail.sold_entry.vehicle_info.warranty} loc={carDetail.userInfo[0].user_location} />
+                <GeneralCar type="dealer" carname={carDetail.car_entry[0].name} carModel={carDetail.car_entry[0].model} carType={carDetail.car_entry[0].type} description={carDetail.car_entry[0].car_info.desc} carSrc={carDetail.car_entry[0].car_info.path}  name={carDetail.userInfo[0].user_info.name} nameSrc={carDetail.userInfo[0].user_info?.path} pricing={carDetail.sold_entry.vehicle_info.pricing} warranty={carDetail.sold_entry.vehicle_info.warranty} loc={carDetail.userInfo[0].user_location} />
 
             {/if}
 

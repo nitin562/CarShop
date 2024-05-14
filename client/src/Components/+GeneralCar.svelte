@@ -6,7 +6,11 @@
     let price=`Rs. ${pricing}`
    
     let CarSourceUrl=ServerBase+"/"+carSrc.replaceAll("\\","/")
-    let nameSourceUrl=ServerBase+"/"+nameSrc.replaceAll("\\","/")
+    let nameSourceUrl="/user.png";
+    if(nameSrc){
+      nameSourceUrl=ServerBase+"/"+nameSrc.replaceAll("\\","/")
+      
+    }
     const handleClickonInfo=()=>{
       if(type==="client"){
         sessionStorage.setItem("DealerId",dealerId)
